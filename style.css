@@ -3,6 +3,10 @@ body {
     margin: 0;
 }
 
+main{
+    background-color: white;
+}
+
 li {
     font-family: Georgia;
 }
@@ -33,7 +37,7 @@ header {
 }
 
 nav {
-    background-color: white;
+    background-color: lightblue;
     overflow: auto;
     margin-top: 20px;
 }
@@ -48,27 +52,30 @@ nav p {
 nav div {
     width: 50%;
     float: left;
+    margin-bottom: 20px;
 }
 
 section {
     float: left;
     overflow: auto;
-    width: 50%;
+    width: 40%;
     text-align: center;
     background-color: yellow;
     box-sizing: border-box;
     height: 761px;
+    margin-left: 10%;
+    border-radius: 100px 0 0 100px;
 }
 
 aside {
-    float: left;
+    /*float: left;*/
     overflow: auto;
-    width: 50%;
+    width: 40%;
     background-color: yellow;
     text-align: center;
     box-sizing: border-box;
     height: 761px;
-    margin-bottom: 10px;
+    border-radius: 0 100px 100px 0;
 }
 
 aside div#video iframe {
@@ -76,7 +83,7 @@ aside div#video iframe {
 }
 
 footer {
-    background-color: white;
+    background-color: lightblue;
     clear: both;
     text-align: center;
 }
@@ -84,6 +91,10 @@ footer {
 footer li {
     font-size: 40px;
     
+}
+
+footer h2{
+    margin: unset;
 }
 
 body div a#Wicono {
